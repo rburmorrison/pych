@@ -1,6 +1,6 @@
 # Package
 
-version       = "1.0.0" # update version in main file too!
+version       = "1.0.2" # update version in main file too!
 author        = "Ryan Burmeister-Morrison"
 description   = "A tool that watches Python files and re-runs them on change."
 license       = "MIT"
