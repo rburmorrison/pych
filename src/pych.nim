@@ -10,7 +10,7 @@ import osproc
 # Get rid of ugly shutdown text when using CTRL-C.
 setControlCHook(proc () {.noconv.} = quit(0))
 
-const version = "1.0.0"
+const version = "1.0.2"
 
 let help = """
 Usage: pych [FLAGS] SCRIPT
