@@ -7,8 +7,6 @@ license       = "MIT"
 srcDir        = "src"
 bin           = @["pych"]
 
-
-
 # Dependencies
 
 requires "nim >= 1.0.4"
