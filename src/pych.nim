@@ -7,6 +7,9 @@ import strformat
 import strutils
 import osproc
 
+# Get rid of ugly shutdown text when using CTRL-C.
+setControlCHook(proc () {.noconv.} = quit(0))
+
 const version = "1.0.0"
 
 let help = """
