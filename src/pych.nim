@@ -94,7 +94,7 @@ proc checkInterpreter(path: string): string =
 proc checkPath(path: string): string =
   ## Checks a given path. If the path does not exist, an error will be
   ## displayed and the program will quit with an error code of 1. If the path
-  ## is valid, a sanatized version of it will be returned.
+  ## is valid, a sanitized version of it will be returned.
   result = path
   if not fileExists(path):
     writeLine(stderr, fmt"Error: {path} does not exist.")
@@ -145,7 +145,7 @@ proc clearScreen() =
 proc run(opts: Options) =
   if opts.clear: clearScreen()
 
-  # Collect Python files recurively in this directory.
+  # Collect Python files recursively in this directory.
   var files = newOrderedTable[string, Time]()
   discard updateFiles(opts.scriptPath.parentDir(), files)
 
