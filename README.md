@@ -2,7 +2,7 @@
 
 PyCh is a tool that watches Python files and re-runs them on change.
 
-![PyCh Example](https://github.com/rburmorrison/pych/raw/release/v1.0.0/docs/pych_example.gif)
+![PyCh Example](https://github.com/rburmorrison/pych/raw/master/docs/pych_example.gif)
 
 # Usage
 
